@@ -25,7 +25,12 @@ class TaskController extends Controller
      */
     public function store(Request $request)
     {
-        return Task::create($request->all());
+        $data = $this->validate($request, [
+            'title' => 'required',
+            'time' => 'required',
+            'date' => 'required'
+        ]);
+        return Task::create($data);
     }
 
     /**
@@ -48,7 +53,12 @@ class TaskController extends Controller
      */
     public function update(Request $request, Task $task)
     {
-        $task->update($request->all());
+        $data = $this->validate($request, [
+            'title' => 'required',
+            'time' => 'required',
+            'date' => 'required'
+        ]);
+        $task->update($data);
         return $task;
     }
 

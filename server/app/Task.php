@@ -10,6 +10,6 @@ class Task extends Collection
     protected $connection = 'mongodb';
     protected $collection = 'tasks';
     protected $fillable = [
-        'title'
+        'title', 'time', 'date'
     ];
 }
