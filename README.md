@@ -1,4 +1,4 @@
-# Todo-List-MVL(MongoDB, Vue, Laravel) :)
+# Todo-List-MVL(MongoDB, Vue, Laravel) 😃
 
 ### If you want to use it or learn from this project follow the **installation**
 
@@ -16,4 +16,4 @@
 
 **If you face any problem contact me**
 
-### If you <3 this project give a :star:
+### If you ❤️ this project give a :star:
